@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="sceneBuildertest.jnlp">
+  <information>
+    <title>sceneBuildertest</title>
+    <vendor>VEGA</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="sceneBuildertest.jar" size="2010016" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="sceneBuildertest" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="scenebuildertest.SceneBuildertest"  name="sceneBuildertest" />
+  <update check="always"/>
+</jnlp>
