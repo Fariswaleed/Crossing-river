@@ -61,5 +61,10 @@
          </image>
       </ImageView>
       <QuadCurve fx:id="curve" controlX="-50.0" controlY="-100.0" endX="87.0" endY="31.0" fill="DODGERBLUE" layoutX="200.0" layoutY="256.0" startX="-153.0" startY="-9.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <ImageView fx:id="farmer" fitHeight="73.0" fitWidth="75.0" layoutX="468.0" layoutY="246.0">
+         <image>
+            <Image url="@images/farmer%20image%201.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

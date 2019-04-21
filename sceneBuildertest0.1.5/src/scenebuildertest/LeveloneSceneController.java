@@ -53,6 +53,8 @@ public class LeveloneSceneController implements Initializable {
     private ImageView k;
     @FXML
     private ImageView sheep;
+    @FXML
+    private ImageView farmer;
     int z=0;
     
     
@@ -102,6 +104,7 @@ public class LeveloneSceneController implements Initializable {
         if(position==1)
         {
             k.setLayoutX(210);k.setLayoutY(269);
+            farmer.setLayoutX(229);farmer.setLayoutY(246);
             sheep.setLayoutX(270);sheep.setLayoutY(277);
             position=2;
       /*l.getPoints().addAll(new Double[]{50.0,60.0,-190.0,60.0});
@@ -126,6 +129,7 @@ public class LeveloneSceneController implements Initializable {
       
        else if(position==2)
         {k.setLayoutX(449);k.setLayoutY(269);
+         farmer.setLayoutX(468);farmer.setLayoutY(246);
         sheep.setLayoutX(509);sheep.setLayoutY(277);position=1;
         /*
         l.getPoints().addAll(new Double[]{-190.0,60.0,50.0,60.0});//100.0,60.0,-150.0,60.0 //-150.0,60.0,100.0,60.0
